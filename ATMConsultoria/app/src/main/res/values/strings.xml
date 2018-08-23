@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ATM Consultoria</string>
+    <string name="atm_consultoria">ATM Consultoria</string>
+    <string name="imagem_clientes">Imagem Clientes</string>
+    <string name="clientes">Clientes</string>
+    <string name="imagemE">Imagem Empresa</string>
+    <string name="Empresa">Empresa</string>
+    <string name="Servicos">Serviços</string>
+    <string name="ImagemS">Imagem Serviços</string>
+    <string name="ImagemC">Imagem Contatos</string>
+    <string name="Contatos">Contatos</string>
+</resources>

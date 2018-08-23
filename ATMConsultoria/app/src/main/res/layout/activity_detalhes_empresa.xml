@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.valchan.atmconsultoria.DetalhesEmpresaActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/imagemE"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037"
+        app:srcCompat="@drawable/detalhe_empresa" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="56dp"
+        android:contentDescription="@string/Empresa"
+        android:text="@string/Empresa"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.189"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut elit at eros cursus placerat sed quis orci. Donec blandit massa et maximus tristique. Proin suscipit nisl quis ex tempor, non pellentesque nibh tristique. In tristique id risus at volutpat. Donec ac mi mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut purus velit. Sed laoreet urna sed lorem porttitor tincidunt.  Morbi porta risus turpis, ac posuere libero iaculis at. Pellentesque condimentum nibh quis velit consectetur interdum. Suspendisse velit sem, varius vel imperdiet non, malesuada vel leo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin non eleifend velit. Sed imperdiet ullamcorper ligula, eu pellentesque ipsum vehicula eu. Aenean malesuada euismod ante sit amet hendrerit. Duis porttitor dolor eget dolor commodo, vel laoreet enim scelerisque. Nunc a luctus eros, a auctor purus. Phasellus hendrerit ornare lorem, a fringilla magna dictum nec. Sed convallis est id sapien tempor tincidunt. Praesent a auctor lectus. Aliquam sodales, est sed ultricies maximus, ipsum ipsum tristique ipsum, quis scelerisque mi dui ac enim. Vestibulum laoreet libero ut eleifend mattis. Proin metus quam, sagittis sed justo ut, sagittis molestie ex.  Mauris blandit sit amet ipsum a fermentum. Vestibulum vulputate sagittis tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer in condimentum arcu. Vestibulum ultrices urna ut ligula pharetra malesuada. Curabitur eget ante nec dolor hendrerit auctor. Integer sed nulla id eros porta faucibus non ut sem. Nullam porta felis at laoreet dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla mollis lorem eget urna ultricies, a venenatis purus commodo. Etiam dui mi, ultricies ac mauris in, vehicula iaculis nulla. Etiam vel sapien id est mollis laoreet. Nulla porttitor eros quis metus sollicitudin, sit amet blandit nunc venenatis." />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
